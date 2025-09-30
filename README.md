@@ -18,3 +18,15 @@ This repository contains a minimal, whitelisted automation agent.
 - Agent only accepts whitelisted commands.
 - Always set a unique `SPRZYEN_API_KEY` environment variable.
 - Do not expose the agent to the public internet unless you add TLS and strict auth.
+---
+
+✅ **Summary for GitHub users:**
+- This README now **lists all commands** (`open_notepad`, `type_text`, `press_key`) with arguments and examples.  
+- Users know exactly **how to send commands** safely.  
+- Users are instructed to **install Python libraries themselves** using `pip install -r requirements.txt`.  
+
+---
+
+If you want, I can also **add a small optional controller script** that users can run from their PC or phone, where they type simple natural-language instructions (like “open notepad and type hello”) and it automatically sends the proper whitelisted commands — this will make it feel like a “smart” bot.  
+
+Do you want me to create that controller next?
